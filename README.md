@@ -30,10 +30,22 @@ This is a single‑page static website with a cute music player, a letter modal,
 
 ## Features
 - **Music player**: Play/pause, time progress, and a like button.
+- <img width="325" height="575" alt="image" src="https://github.com/user-attachments/assets/c516ade0-9fa4-401f-9089-1f777658c61e" />
+- <img width="309" height="94" alt="image" src="https://github.com/user-attachments/assets/5dfcca5c-4b36-4b43-a6d0-c136d50ddeef" />
+
 - **Letter modal**: Placeholder letter text, ready to customize.
+- <img width="274" height="264" alt="image" src="https://github.com/user-attachments/assets/1a35c405-d1ad-459a-aa56-9a6428aa7e3f" />
 - **Poem modal**: Placeholder stanza, ready to customize.
+- <img width="238" height="220" alt="image" src="https://github.com/user-attachments/assets/d504703b-a005-4efc-99df-5aaa9251b364" />
 - **Gallery**: Uses `strawberry.png` as placeholder tiles.
+- <img width="243" height="222" alt="image" src="https://github.com/user-attachments/assets/339ab6b0-0641-4988-b1ea-8165b8166e20" />
 - **Decor**: Strawberry stickers over a checkered background.
+
+<img width="1439" height="728" alt="image" src="https://github.com/user-attachments/assets/42265089-ee27-45df-9d18-77276e891bdc" />
+<img width="1439" height="732" alt="image" src="https://github.com/user-attachments/assets/f0c3d35d-b1e8-4032-867f-1ba571cd397b" />
+<img width="1437" height="725" alt="image" src="https://github.com/user-attachments/assets/24f4c2a0-52d9-44f6-aa3c-143ccd9c2733" />
+<img width="1439" height="728" alt="image" src="https://github.com/user-attachments/assets/7b8357f0-0904-4157-b009-a5d598a49a72" />
+
 
 ## Tech stack
 - HTML
