@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Music Player Presentation (Public Release)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="checkered-pattern"></div>
+        <div class="strawberries-container" id="strawberriesContainer"></div>
+
+        <div class="envelope-toggle" id="envelopeToggle">
+            <div class="lid one"></div>
+            <div class="lid two"></div>
+            <div class="envelope"></div>
+            <div class="letter">
+                <p>Read Me</p>
+            </div>
+        </div>
+
+        <div class="letter-modal" id="letterModal">
+            <div class="letter-modal-content">
+                <button class="close-letter">&times;</button>
+                <div class="letter-date">Public Release</div>
+                <div class="letter-salutation">Dear Friend</div>
+                <div class="letter-body">
+                    <p>This is placeholder letter content for the public repository.</p>
+                    <p>Replace this with your own text if you fork this project.</p>
+                    <p style="text-align: right; margin-top: 40px;">Yours,</p>
+                </div>
+                <div class="signature">
+                    <div class="signature-name">Your Name</div>
+                    <div class="signature-underline"></div>
+                    <div class="signature-xo">xoxo</div>
+                </div>
+            </div>
+        </div>
+
+        <audio id="audioPlayer" src="back-to-december.mp3" preload="auto"></audio>
+
+        <div class="music-player" id="musicPlayer">
+            <div class="album-art">
+                <div class="flower-pattern">
+                    <img src="images/album-cover.png" alt="Album Cover" style="width: 100%; height: 100%; object-fit: cover; border-radius: 17px;">
+                </div>
+            </div>
+            <div class="player-info">
+                <div class="song-title">Back to December</div>
+                <div class="artist-name">Taylor Swift</div>
+                <div class="progress-container">
+                    <div class="time-display">00:00</div>
+                    <button class="like-btn">♥</button>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                        <div class="progress-handle" id="progressHandle"></div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="control-btn prev-btn">⏮</button>
+                    <button class="control-btn play-btn" id="playBtn">▶</button>
+                    <button class="control-btn next-btn">⏭</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="strawberry-tabs" id="strawberryTabs">
+            <div class="tab-card" data-modal="letterModal">
+                <div class="tab-pin"></div>
+                <div class="tab-title">Letter</div>
+            </div>
+            <div class="tab-card" data-modal="galleryModal">
+                <div class="tab-pin"></div>
+                <div class="tab-title">Gallery</div>
+            </div>
+            <div class="tab-card" data-modal="poemModal">
+                <div class="tab-pin"></div>
+                <div class="tab-title">Poem</div>
+            </div>
+        </div>
+
+        <div class="gallery-modal" id="galleryModal">
+            <div class="letter-modal-content">
+                <button class="close-gallery">&times;</button>
+                <div class="gallery-grid">
+                    <img src="strawberry.png" alt="Placeholder">
+                    <img src="strawberry.png" alt="Placeholder">
+                    <img src="strawberry.png" alt="Placeholder">
+                    <img src="strawberry.png" alt="Placeholder">
+                    <img src="strawberry.png" alt="Placeholder">
+                    <img src="strawberry.png" alt="Placeholder">
+                    <img src="strawberry.png" alt="Placeholder">
+                    <img src="strawberry.png" alt="Placeholder">
+                </div>
+            </div>
+        </div>
+
+        <div class="poem-modal" id="poemModal">
+            <div class="letter-modal-content">
+                <button class="close-poem">&times;</button>
+                <div class="poem-body">
+                    <p style="font-family: 'Dancing Script', cursive; font-size: 24px; line-height: 1.9; color: #000; text-align: left;">
+                        [Placeholder poem for public release]
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
